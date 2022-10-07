@@ -1,13 +1,58 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .navbar {
+  background-color: gray;
+  padding: 16px 4px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+
+}
+
+.navbar ul li {
+  cursor: pointer;
+  font-size: large;
+  color: white;
+}
+
+.design {
+  padding: 4px 10px;
+}
+
+
+
+
+.original img {
+  width: 100%;
+  height: 200px;
+}
+
+
+.workCulture {
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+.containerDiv {
+  /* background-color: hsla(0, 26%, 70%, 0.149);
+  backdrop-filter: blur(2px); */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
